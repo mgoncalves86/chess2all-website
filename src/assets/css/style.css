@@ -797,6 +797,10 @@ section {
   margin: 0 auto;
 }
 
+.partners .row .col-md-4:nth-child(6n) {
+  margin-bottom: 20px; /* Adjust the space as needed */
+}
+
 /* .icon-box {
   text-align: center;
   padding: 10px;
