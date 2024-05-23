@@ -1255,7 +1255,12 @@ section {
 }
 
 
-
+.team .member-div {
+  width: 100vh;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
 
 .team .member .member-img {
   position: relative;
