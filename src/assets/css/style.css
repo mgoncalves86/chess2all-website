@@ -1252,6 +1252,19 @@ section {
   height: 100%;
   object-fit: cover; /* Ensures the image fills the circular area without distortion or cropping */
   display: block;
+  filter: grayscale(100%); /* Initially display the image in grayscale */
+  transition: filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.team .member:hover .member-img img {
+  filter: grayscale(0%); /* Reveal the original colors on hover */
+}
+
+.team .member .member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the circular area without distortion or cropping */
+  display: block;
 }
 
 
