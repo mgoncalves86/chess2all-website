@@ -1,0 +1,28 @@
+name: pa11y
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+
+jobs:
+  pa11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Start static server
+        run: |
+          python -m http.server 5000 --directory src &
+          sleep 2
+      - name: Run pa11y
+        run: |
+          npx pa11y http://localhost:5000 --reporter html > pa11y-report.html || true
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: pa11y-report
+          path: pa11y-report.html
