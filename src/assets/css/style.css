@@ -718,7 +718,7 @@ section {
 }
 
 .visually-impaired {
-  background-image: url('../img/visually-impared-scaled.jpg');
+  background-image: url('../img/visually-impaired-scaled.jpg');
 }
 
 .autism {
@@ -790,8 +790,8 @@ section {
   padding-top: 20px;
 }
 
-.partners .partners-aligmnet-content {
-  justify-content: left;
+.partners .partners-alignment-content {
+  justify-content: flex-start;
 }
 
 .partners .icon-box {
@@ -1286,7 +1286,7 @@ section {
 
 
 .team .member-div {
-  width: 100vh;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto 10px;
