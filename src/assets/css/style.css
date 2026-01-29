@@ -20,11 +20,9 @@ body {
   --light:#eeeeee;
   --bg-section:#edf8ff;
   --pink:#f7c2cc;
-  --dark:#493c3e;
-  --shadow-1:rgba(68, 88, 144, 0.12);
+    --shadow-1:rgba(68, 88, 144, 0.12);
   --shadow-2:rgba(127, 137, 161, 0.25);
-  --bg-f9:#f9f9f9;
-  --muted-2:#bababa;
+    --muted-2:#bababa;
   --danger:#d91e42;
   --badge-bg:#fce6ea;
   --meta:#b1a0a3;
@@ -42,20 +40,13 @@ body {
   --muted-6:#816a6e;
   --text-strong:#111;
   /* Added tokens for remaining literals found in stylesheet */
-  --c-ede9e9:#ede9e9;
-  --c-fafafa:#fafafa;
-  --c-f6f4f4:#f6f4f4;
-  --c-ccc:#ccc;
-  --c-e64e6b:#e64e6b;
-  --c-dfd8d9:#dfd8d9;
-  --c-b7b7b7:#b7b7b7;
-  --c-e6e6e6:#e6e6e6;
+        --c-ccc:#ccc;
+    --c-dfd8d9:#dfd8d9;
+    --c-e6e6e6:#e6e6e6;
   --c-9a8487:#9a8487;
   --c-57484a:#57484a;
   --c-8e767a:#8e767a;
-  --c-ddd:#ddd;
-  --c-f1eeef:#f1eeef;
-
+    
   /* RGBA helpers */
   --r-inset-025: rgba(0,0,0,0.25);
   --r-dark-90: rgba(45,37,38,0.9);
@@ -267,7 +258,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .navbar .dropdown ul a i {
@@ -380,7 +371,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .navbar-mobile a:hover,
@@ -810,7 +801,7 @@ section {
 }
 
 .partners .icon-box h3 a {
-  color: var(--dark);
+  color: var(--text);
   transition: ease-in-out 0.3s;
 }
 .partners .icon-box:hover a {
@@ -904,7 +895,7 @@ section {
   color: var(--text);
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: var(--c-ede9e9);
+  background: var(--light);
   border-radius: 50px;
 }
 
@@ -1051,12 +1042,12 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: var(--bg-f9);
+  background: var(--white);
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  border: 2px solid var(--bg-f9);
+  border: 2px solid var(--white);
 }
 
 .pricing .box h3 {
@@ -1065,7 +1056,7 @@ section {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 600;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .pricing .box h4 {
@@ -1091,7 +1082,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: var(--dark);
+  color: var(--text);
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1175,7 +1166,7 @@ section {
 }
 
 .faq .faq-list li {
-  border-bottom: 1px solid var(--c-f1eeef);
+  border-bottom: 1px solid var(--light);
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -1314,7 +1305,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: var(--dark);
+  color: var(--text);
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
@@ -1342,7 +1333,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .team .member .member-info span {
@@ -1398,7 +1389,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .contact .info p {
@@ -1519,7 +1510,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: var(--c-f6f4f4);
+  background: var(--light);
   margin-top: 67px;
 }
 
@@ -1581,7 +1572,7 @@ section {
 }
 
 .blog .entry .entry-title a {
-  color: var(--dark);
+  color: var(--text);
   transition: 0.3s;
 }
 
@@ -1651,7 +1642,7 @@ section {
 
 .blog .entry .entry-content blockquote {
   overflow: hidden;
-  background-color: var(--c-fafafa);
+  background-color: var(--white);
   padding: 60px;
   position: relative;
   text-align: center;
@@ -1674,7 +1665,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: var(--dark);
+  background-color: var(--text);
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1754,7 +1745,7 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .blog .blog-author .social-links {
@@ -1768,7 +1759,7 @@ section {
 
 .blog .blog-author p {
   font-style: italic;
-  color: var(--c-b7b7b7);
+  color: var(--muted-2);
 }
 
 .blog .blog-comments {
@@ -1809,7 +1800,7 @@ section {
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: var(--dark);
+  color: var(--text);
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -1872,7 +1863,7 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: var(--dark);
+  background-color: var(--text);
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
@@ -1896,7 +1887,7 @@ section {
 }
 
 .blog .blog-pagination li a {
-  color: var(--dark);
+  color: var(--text);
   padding: 7px 16px;
   display: flex;
   align-items: center;
@@ -1924,7 +1915,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: var(--dark);
+  color: var(--text);
   position: relative;
 }
 
@@ -1934,7 +1925,7 @@ section {
 
 .blog .sidebar .search-form form {
   background: var(--white);
-  border: 1px solid var(--c-ddd);
+  border: 1px solid var(--c-dfd8d9);
   padding: 3px 10px;
   position: relative;
 }
@@ -1968,7 +1959,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: var(--c-e64e6b);
+  background: var(--accent-hover);
 }
 
 .blog .sidebar .categories ul {
@@ -1981,7 +1972,7 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: var(--dark);
+  color: var(--text);
   transition: 0.3s;
 }
 
@@ -2011,7 +2002,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: var(--dark);
+  color: var(--text);
   transition: 0.3s;
 }
 
@@ -2045,7 +2036,7 @@ section {
   font-size: 14px;
   padding: 6px 14px;
   margin: 0 6px 8px 0;
-  border: 1px solid var(--c-f6f4f4);
+  border: 1px solid var(--light);
   display: inline-block;
   transition: 0.3s;
 }
