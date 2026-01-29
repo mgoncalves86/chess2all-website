@@ -8,14 +8,15 @@ body {
 }
 
 :root{
+
   --brand:#2F518E;
   --brand-600:#3F65B0;
-  --brand-500:#5C9EDC;
+  --brand-500:#467aa9;
   --accent:#25a13c;
   --accent-strong:#1f7f2f;
   --text:#444444;
 
-  --white:#ffffff;
+  --white:#757575;
   --light:#eeeeee;
   --bg-section:#edf8ff;
   --pink:#f7c2cc;
@@ -32,8 +33,8 @@ body {
   --shadow-4:rgba(73, 60, 62, 0.08);
   --accent-hover:#e7526f;
   --highlight:#f096a7;
-  --error:#ed3c0d;
-  --success:#18d26e;
+  --error:#d0340b;
+  --success:#0d7c40;
   --overlay:rgba(2, 2, 2, 0.5);
   --breadcrumb-sep:#655356;
   --muted-light:#aaaaaa;
@@ -63,6 +64,7 @@ body {
   --r-dark-50: rgba(73,60,62,0.5);
   --r-black-60: rgba(0,0,0,0.6);
   --r-black-80: rgba(0,0,0,0.8);
+
 }
 
 a {
