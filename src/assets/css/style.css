@@ -154,6 +154,20 @@ h6 {
   padding: 12px 0;
 }
 
+/* Ensure navigation links remain highly readable on dark header backgrounds */
+#header.header-scrolled .navbar a,
+#header.header-scrolled .navbar .nav-link,
+#header.header-inner-pages .navbar a,
+#header.header-inner-pages .navbar .nav-link {
+  color: var(--white) !important;
+}
+
+/* When the header uses the brand background, make the Accent link use a high-contrast white on that background */
+#header.header-scrolled .navbar a.nav-estatutos,
+#header.header-inner-pages .navbar a.nav-estatutos {
+  color: var(--white) !important;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -200,6 +214,27 @@ h6 {
 /* Increase specificity so navbar rules don't override this link */
 .navbar a.nav-estatutos{ color: var(--accent); }
 .navbar a.nav-estatutos:hover{ color: var(--accent-strong); }
+
+/* Ensure navbar links have sufficient contrast on light backgrounds */
+.navbar .nav-link{ color: var(--brand); }
+.navbar .nav-link:hover{ color: var(--brand-600); }
+
+/* Default: make anchor links in the navbar use a high-contrast dark color on light headers */
+.navbar a.nav-link { color: var(--brand) !important; }
+.navbar a.nav-link:hover { color: var(--brand-600) !important; }
+
+/* Ensure Accent/Estatutos uses an accessible color in the navbar */
+.navbar a.nav-estatutos { color: var(--brand) !important; }
+.navbar a.nav-estatutos:hover { color: var(--brand-600) !important; }
+
+/* Ensure team role text is readable */
+.team .member .member-info span{ color: var(--text-strong); }
+
+/* Force team role and organization labels to use a stronger text color for contrast */
+#team .member-info span,
+#team .member-info b {
+  color: var(--text-strong) !important;
+}
 
 .navbar a i,
 .navbar a:focus i {
