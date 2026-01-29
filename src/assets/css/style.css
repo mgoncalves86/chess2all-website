@@ -14,7 +14,6 @@ body {
   --accent:#25a13c;
   --accent-strong:#1f7f2f;
   --text:#444444;
-  --muted:#6c6c6c;
 
   --white:#ffffff;
   --light:#eeeeee;
@@ -206,8 +205,8 @@ h6 {
 
 /* Estatutos link uses accent color */
 /* Increase specificity so navbar rules don't override this link */
-.navbar a.nav-estatutes{ color: var(--accent); }
-.navbar a.nav-estatutes:hover{ color: var(--accent-strong); }
+.navbar a.nav-estatutos{ color: var(--accent); }
+.navbar a.nav-estatutos:hover{ color: var(--accent-strong); }
 
 .navbar a i,
 .navbar a:focus i {
