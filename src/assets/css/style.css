@@ -224,8 +224,10 @@ h6 {
 .navbar a.nav-link:hover { color: var(--brand-600) !important; }
 
 /* Ensure Accent/Estatutos uses an accessible color in the navbar */
-.navbar a.nav-estatutos { color: var(--brand) !important; }
-.navbar a.nav-estatutos:hover { color: var(--brand-600) !important; }
+.navbar a.nav-estatutos { color: var(--accent) !important; }
+.navbar a.nav-estatutos .ri-download-2-fill,
+.navbar a.nav-estatutos .icon-spacing { color: var(--accent) !important; }
+.navbar a.nav-estatutos:hover { color: var(--accent-strong) !important; }
 
 /* Ensure team role text is readable */
 .team .member .member-info span{ color: var(--text-strong); }
